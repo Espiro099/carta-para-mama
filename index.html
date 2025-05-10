@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Una carta digital especial para el Día de la Madre">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Carta para mamá - Feliz Día</title>
+    <style>
+        .controles-tamano {
+            margin: 20px 0;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .controles-tamano button {
+            padding: 10px 20px;
+            background: var(--corazon);
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-family: "Gill Sans", Calibri, sans-serif;
+            transition: all 0.3s ease;
+            font-size: calc(14px * var(--escala));
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .controles-tamano button:hover {
+            background: #e63946;
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor-principal">
+        <h1>¡Feliz Día Mamá! ❤️</h1>
+        <div class="contenedor">
+            <div class="envoltura-sobre">
+                <div class="sobre">
+                    <div class="carta">
+                        <div class="contenido">
+                            <strong>Querida Mamá</strong>
+                            <p>
+                                Hoy es <strong>Tu día especial</strong>, 
+                                el día en que celebramos todo el amor que nos has dado y que nos has proporsionado,
+                                cada enseñanza con <em>paciencia</em> y cada sacrificio hecho con alegría. 
+                                GRACIAS, mamá, gracias por todo el esfuerzo que haces dia a dia por mi, y por mis hermanos.
+                                Estoy orgullozo de llamarte mama, ya que eres un claro ejemplo a seguir para mi. "<strong>Te amo</strong>" 
+                                y todas las palabras del mundo no sería suficiente. Tu amor es el motor silencioso que impulsa nuestras vidas. 
+                                Nada en este mundo se compara con tu entrega y tu corazón. Hoy y siempre, te honrare y te agradecere 
+                                por todo lo que eres. Gracias por hacer de mi vida una historia llena de inspiracion y motivacion,
+                                se que he cometido algunos errores, y muchos a decir verdad. Y se que no he sido el hijo perfecto, se que en
+                                el pasado te juzgue y me comporte de una pesima manera, y te pido disculpas por haberme comportado de esa manera
+                                pero quiero que sepas, que hoy en dia, agradezco tus enseñanzasm tu compañia y el amor que me has dado pase a todo
+                                lo que fui.<br><br>
+                                <strong>Feliz Día Mamá</strong>, mi <em>Lugar seguro</em>. <br><br>
+                                Con mucho <strong>código</strong> (y todo mi <strong>amor</strong>), <br>
+                                Tu hijo el cabron y vago. <br><br>
+                                <span class="postdata">
+                                    PD: Si esta carta fuera un programa, su salida sería:
+                                </span> <br>
+                                <code>"Gracias por darme la vida mamá, Te amo con todo mi corazón ❤️."</code>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="corazon" aria-label="Corazón para abrir la carta"></div>
+                <div class="solapa-derecha"></div>
+                <div class="solapa-izquierda"></div>
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <script src="script_v2.js"></script>
+</body>
+</html>
